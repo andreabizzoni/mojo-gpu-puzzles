@@ -17,7 +17,8 @@ fn add(
 ):
     i = thread_idx.x
     # FILL ME IN (roughly 1 line)
-
+    if i < SIZE:
+        output[i] = a[i] + b[i]
 
 # ANCHOR_END: add
 
